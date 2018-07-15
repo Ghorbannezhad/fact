@@ -1,0 +1,17 @@
+{
+    "name": "ghorbannezhad/fact",
+    "description": "This is the fact generator package",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faezeh Ghorbannezhad",
+            "email": "fghorbannezhad@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+        "laravel/framework": "5.6.*"
+    }
+}
