@@ -5,7 +5,7 @@ Fact generator is a simple laravel package which generate fact image. You only n
 It support English and Persian.
 
 
-##Install
+## Install
 
 1- Install the package with composer
 ```ssh
@@ -17,7 +17,7 @@ composer require --dev ghorbannezhad/fact
 php artisan vendor:publish --provider="Ghorbannezhad\Fact\FactServiceProvider"
 ```
 
-##Usage
+## Usage
 1- Add service provider to config/app.php
 ```php
 'providers' => [
@@ -32,7 +32,7 @@ php artisan vendor:publish --provider="Ghorbannezhad\Fact\FactServiceProvider"
     $text= 'Lorem ipsum';
     $fact = FactFacade::create($image,$text);
 ```
-##Contributers
+## Contributers
 * Faezeh Ghorbannezhad [@ghorbannezhad](http://github.com/Ghorbannezhad)
 * Mostafa Zeinivand [@mostafaznv](http://github.com/mostafaznv)
 * Ramin Khatibi [@raminix](http://github.com/raminix)
