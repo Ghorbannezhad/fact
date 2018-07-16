@@ -1,7 +1,6 @@
 {
-    "name": "Ghorbannezhad/fact",
+    "name": "ghorbannezhad/fact",
     "description": "This is the fact generator package",
-    "type": "metapackage",
     "license": "MIT",
     "authors": [
         {
