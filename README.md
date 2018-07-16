@@ -17,7 +17,7 @@ composer require --dev ghorbannezhad/fact
 php artisan vendor:publish --provider="Ghorbannezhad\Fact\FactServiceProvider"
 ```
 
-## Usage
+### Usage
 1- Add service provider to config/app.php
 ```php
 'providers' => [
@@ -32,7 +32,27 @@ php artisan vendor:publish --provider="Ghorbannezhad\Fact\FactServiceProvider"
     $text= 'Lorem ipsum';
     $fact = FactFacade::create($image,$text);
 ```
-## Contributers
+3- Set language and font in config file
+```
+return [
+    'logo'=>$logo,
+    'style'=>[
+        'margin_top'=>10,        //in percent
+        'margin_left'=>10,      //in percent
+        'margin_bottom'=>10,   //in percent
+        'margin_right'=>10,   //in percent
+        'font_size'=>24,
+        'line_height'=>50,
+        'logo_from_bottom'=> 10,  //in percent
+        'font'=>$font,
+        'text_align'=>'center' //supported: center|right|left
+    ],
+    'lang'=>'fa', //supported: fa | en
+    'save_path'=>$save_path,
+
+];
+```
+### Contributers
 * Faezeh Ghorbannezhad [@ghorbannezhad](http://github.com/Ghorbannezhad)
 * Mostafa Zeinivand [@mostafaznv](http://github.com/mostafaznv)
 * Ramin Khatibi [@raminix](http://github.com/raminix)

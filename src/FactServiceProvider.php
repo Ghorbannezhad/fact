@@ -13,10 +13,7 @@ class FactServiceProvider extends ServiceProvider {
     }
 
     public function register(){
-        $this->loadViewsFrom(__DIR__.'/views','fact');
         $this->mergeConfigFrom(__DIR__ . '/../config/fact.php','fact');
-
-        $this->app->make('Ghorbannezhad\Fact\FactController');
 
         // Ajax Facade
         $this->app->bind('fact', function($app) {
