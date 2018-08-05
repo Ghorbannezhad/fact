@@ -15,7 +15,6 @@ class FactServiceProvider extends ServiceProvider {
     public function register(){
         $this->mergeConfigFrom(__DIR__ . '/../config/fact.php','fact');
 
-        // Ajax Facade
         $this->app->bind('fact', function($app) {
             return new FactController();
         });
