@@ -56,11 +56,11 @@ return [
 * Faezeh Ghorbannezhad [@ghorbannezhad](http://github.com/Ghorbannezhad)
 * Mostafa Zeinivand [@mostafaznv](http://github.com/mostafaznv)
 * Ramin Khatibi [@raminix](http://github.com/raminix)
-* Mostafa Zeinivand [@SamssonApps](http://github.com/SamssonApps)
+* Samsson Apps [@SamssonApps](http://github.com/SamssonApps)
 
 ### License
 
-Monolog is licensed under the MIT License - see the `LICENSE` file for details
+FactGenerator is licensed under the MIT License - see the `LICENSE` file for details
 
 
 
