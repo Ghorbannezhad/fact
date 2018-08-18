@@ -1,7 +1,7 @@
 <?php
 $logo = __DIR__.'/../images/input/asoone-facts-logo.png';
 $font =  __DIR__.'/../assets/fonts/Tahoma.ttf';
-$save_path = __DIR__.'/../images';
+$save_path = __DIR__.'/../images/';
 
 return [
     'logo'=>$logo,
